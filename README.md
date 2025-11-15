@@ -2,33 +2,32 @@
 
 <div align="center">
 
-A modern, cross-platform desktop application for managing game servers with ease.
+### Host your own game servers - No tech skills required!
 
 ![Version](https://img.shields.io/badge/version-1.0.5-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 
-[Download Latest Release](https://github.com/velozity/gameservermanager-releases/releases/latest) | [Report Bug](https://github.com/velozity/game-server-manager/issues)
+### **[⬇️ Download Now](https://github.com/velozity/gameservermanager-releases/releases/latest)**
 
 </div>
 
-## 📋 Overview
+## 🎮 What is GSM?
 
-Game Server Manager (GSM) is a powerful desktop application that simplifies the process of setting up, configuring, and managing dedicated game servers. Whether you're hosting a Minecraft server, Valheim server, or other popular game servers, GSM provides an intuitive interface to handle all aspects of server management from a single application.
+GSM makes it super easy to host your own game servers for you and your friends - no complicated setup or technical knowledge needed! Just download, click a few buttons, and you're ready to play together.
 
-## ✨ Features
+Think of it like a control panel for your game servers - start them, stop them, change settings, and invite friends - all from one simple app.
 
-- **🎮 Multi-Game Support** - Currently supports Minecraft, Valheim, and Rust with more games coming soon
-- **🚀 Easy Server Creation** - Set up new game servers in minutes with guided setup wizards
-- **⚙️ Configuration Management** - Edit server configurations through an intuitive UI
-- **📊 Resource Monitoring** - Real-time CPU, memory, and network usage monitoring
-- **🔄 Version Management** - Switch between different game server versions
-- **📝 Log Viewing** - View and search through server logs in real-time
-- **🌐 Port Mapping** - Automatic port configuration and conflict detection
-- **⏰ Scheduled Tasks** - Automated server cleanup and maintenance
-- **🎨 Modern UI** - Beautiful, dark-themed interface built with Tailwind CSS and Radix UI
-- **💾 Database Storage** - Local SQLite database with Drizzle ORM for reliable data management
-- **🔒 Secure** - Follows Electron security best practices with context isolation
+## ✨ Why Use GSM?
+
+- **🎮 Multiple Games** - Host Minecraft, Valheim, and Rust servers (more games coming soon!)
+- **⚡ Quick Setup** - Create a server in under 5 minutes - we guide you through every step
+- **🎛️ Easy Controls** - Start, stop, and configure your server with simple buttons and settings
+- **📊 Monitor Performance** - See how much memory and CPU your server is using at a glance
+- **🔄 Auto Updates** - Switch game versions easily - no manual downloads needed
+- **📝 View Activity** - Check what's happening on your server in real-time
+- **🌐 Network Help** - Automatic network setup when possible (or we show you what to do)
+- **🗑️ Safe Deletion** - Deleted servers can be recovered for 7 days (just in case!)
+- **💯 Free Forever** - No subscriptions, no hidden costs, completely free to use
 
 ## 🎯 Supported Games
 
@@ -38,107 +37,122 @@ Game Server Manager (GSM) is a powerful desktop application that simplifies the 
 | Valheim                | ✅ Supported |
 | Rust                   | ✅ Supported |
 
-## 📥 Installation
+## 📥 Getting Started
 
-### Download
+### Step 1: Download GSM
 
-Download the latest version for your operating system from the [Releases Page](https://github.com/velozity/gameservermanager-releases/releases/latest):
+Go to the [**Download Page**](https://github.com/velozity/gameservermanager-releases/releases/latest) and grab the installer for your computer:
 
-- **Windows**: Download the `.exe` installer
-- **macOS**: Download the `.dmg` file
-- **Linux**: Download the `.AppImage` file
+- **Windows Users**: Download the `.exe` file and run it
+- **Mac Users**: Download the `.dmg` file and drag to Applications
+- **Linux Users**: Download the `.AppImage` file and make it executable
 
-### System Requirements
+### Step 2: Install & Launch
 
-- **OS**: Windows 10/11, macOS 10.13+, or modern Linux distribution
-- **RAM**: 4GB minimum (8GB recommended)
-- **Disk Space**: 500MB for the application, plus space for game servers
+1. Run the installer (it takes about 1 minute)
+2. Open GSM from your applications
+3. You'll see the main screen - that's it!
 
-### First-Time Setup
+### Step 3: Create Your First Server
 
-1. Download and install GSM for your platform
-2. Launch the application
-3. Select a game from the server selection screen
-4. Follow the guided setup wizard to create your first server
-5. Start your server and enjoy!
+1. Click the big **"Add Server"** button
+2. Pick your game (Minecraft, Valheim, or Rust)
+3. Give your server a name (like "My Awesome Server")
+4. Click **"Create"** and wait while GSM sets everything up
+5. Hit the **"Start"** button and you're live!
 
-## 📖 Usage Guide
+**That's it! Your server is running and ready for friends to join.** 🎉
 
-### Creating a Server
+## 🎯 How to Use GSM
 
-1. Click "Create New Server" on the main screen
-2. Select your game type (Minecraft, Valheim, etc.)
-3. Configure server settings:
-   - Server name
-   - Port number (default ports are suggested)
-   - Maximum players
-   - Game version (if applicable)
-4. Click "Create" to set up your server
+### Starting Your Server
 
-### Managing Your Server
+Click on your server from the list, then hit the big green **"Start"** button. Wait about 30 seconds and you're online!
 
-- **Start/Stop**: Use the control buttons to manage server state
-- **View Logs**: Monitor server activity in real-time
-- **Edit Config**: Modify server settings through the built-in editor
-- **Resource Monitor**: Track CPU, RAM, and network usage
+### Stopping Your Server
 
-### Tips for Best Performance
+Just click the red **"Stop"** button. It's that simple!
 
-- Allocate sufficient RAM based on your game and player count
-- Keep ports open in your firewall/router for external access
-- Regularly check logs for errors or warnings
-- Use automatic cleanup to maintain optimal performance
+### Connecting to Your Server
 
-## 🔧 Data Storage
+**For You (on the same computer):**
 
-GSM stores application data and server files in the following locations:
+- Use `localhost` in your game
+- Example: `localhost:25565` for Minecraft
 
-- **Windows**: `%APPDATA%\gamemanager-electron\`
-- **macOS**: `~/Library/Application Support/gamemanager-electron/`
-- **Linux**: `~/.config/gamemanager-electron/`
+**For Friends:**
 
-To backup your servers, simply copy this directory to a safe location.
-Automated backups is in progress.
+- They need your public IP address and the port number
+- Find these on your server details page
+- You might need to set up port forwarding on your router (GSM will try to do this automatically!)
+
+### Changing Server Settings
+
+1. Make sure your server is **stopped** first
+2. Click on your server to open the details
+3. Go to the **"Settings"** tab
+4. Change what you want (player limit, server name, etc.)
+5. Click **"Save"** and restart your server
+
+### Finding Your Server Files
+
+Need to add mods or plugins? Click the **"Open Folder"** button on your server page - that's where all your server files live!
+
+## 💾 Where Are My Server Files?
+
+GSM keeps all your server files organized in one place:
+
+- **Windows**: Check your AppData folder (GSM can open it for you!)
+- **Mac**: In your Library/Application Support folder
+- **Linux**: In your .config folder
+
+**Don't worry about finding these!** Just click the **"Open Folder"** button in GSM to go straight to your server files.
+
+### Backing Up Your Servers
+
+Want to backup your worlds/saves? Just copy the server folder to a safe place like a USB drive or cloud storage. Your server files are safe even if you uninstall GSM!
 
 ## ❓ Frequently Asked Questions
 
 **Q: How do I create a new server?**  
-A: Click the "Add Server" button on the main screen, select your game, configure the server settings (name, version, port), and click Create. The server will be automatically installed and ready to start.
+A: Click the "Add Server" button, pick your game, give it a name, and click Create! GSM handles all the complicated stuff automatically.
 
 **Q: Why won't my server start?**  
-A: Common reasons include:
+A: Usually it's because:
 
-- The port is already in use
-- The server files are corrupted
-- Java/required dependencies are missing
+- Another program is using the same port (try a different port number)
+- You don't have Java installed (needed for Minecraft - GSM will tell you)
+- Something went wrong during setup (try creating the server again)
 
-Check the server logs for specific error messages and make sure no other servers are using the same port.
+Check the "Logs" tab in GSM to see what's happening.
 
-**Q: How do I/my friends connect to my server?**  
-A: For local connections, use `localhost:PORT`. For external connections, you'll typically need to forward the port on your router and use your public IP address. This is taken care of for you if your router supports UPnP, otherwise you will need to set it up manually.
+**Q: How do my friends join my server?**  
+A: **You (playing on same computer):** Use `localhost:PORT` in your game.
 
-**Q: Where are my server files stored?**  
-A: Server files are stored in your user data directory. You can quickly access them by clicking the "Open Folder" button on the server details page. Each server has its own isolated directory.
+**Friends:** They need your public IP address and port number (shown in GSM). Your router might need port forwarding setup - GSM tries to do this automatically, but some routers need manual setup. Search YouTube for "port forwarding [your router name]" if needed!
 
-**Q: Is my server safe if I uninstall GSM?**  
-A: Yes, your server will remain in the same folder it is in currently, even if you uninstall GSM.
+**Q: Where are my server files?**  
+A: Click the "Open Folder" button in GSM - it takes you straight there! Each server has its own folder to keep things organized.
 
-**Q: How do I update my server version?**  
-A: Stop the server, go to the server details page, and change the version in the settings. The new version will be downloaded automatically. Always backup your world/save files before updating.
+**Q: What if I uninstall GSM?**  
+A: Your servers are safe! They stay on your computer even if you remove GSM. You can always reinstall GSM later.
 
-**Q: What happens to deleted servers?**  
-A: Deleted servers are moved to a trash/recycle area where they can be restored within 7 days. After that, they are permanently removed. You can also manually purge a server immediately from the trash.
+**Q: How do I update my server?**  
+A: Stop your server, go to Settings, pick a new version from the dropdown, and save. GSM downloads and installs it automatically. Pro tip: Backup your world saves first!
 
-**Q: How do I edit server configuration files?**  
-A: Go to the server details page and click the "Config" tab. You can edit the main configuration file directly in the built-in editor. Changes are saved immediately. Make sure the server is stopped before making changes.
+**Q: Can I recover a deleted server?**  
+A: Yes! Deleted servers go to a recycle area for 7 days. Check the main screen to restore them. After 7 days, they're gone forever.
 
-## 🐛 Support & Bug Reports
+**Q: How do I change advanced settings?**  
+A: Click on your server, go to the "Config" tab, and edit the settings directly. Make sure your server is stopped first! Changes save automatically.
 
-If you encounter any issues or have questions:
+## 💬 Need Help?
 
-- **Bug Reports**: [Open an issue](https://github.com/velozity/game-server-manager/issues)
-- **Feature Requests**: [Submit a request](https://github.com/velozity/game-server-manager/issues)
-- **Email Support**: hey@zacary.dev
+Run into problems or have questions?
+
+- **Found a Bug?** [Let me know here](https://github.com/velozity/game-server-manager/issues)
+- **Want a Feature?** [Request it here](https://github.com/velozity/game-server-manager/issues)
+- **Email Me:** hey@zacary.dev
 
 ## 📄 Version History
 
