@@ -8,7 +8,7 @@ A modern, cross-platform desktop application for managing game servers with ease
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 
-[Download Latest Release](https://github.com/velozity/gameservermanager-releases/releases/latest) | [Report Bug](https://github.com/velozity/game-server-manager/issues) | [Website](https://zacary.dev)
+[Download Latest Release](https://github.com/velozity/gameservermanager-releases/releases/latest) | [Report Bug](https://github.com/velozity/game-server-manager/issues)
 
 </div>
 
